@@ -1,0 +1,11 @@
+[package]
+name = "ethers-tools"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+web3 = "0.17"
+ethers-core = { version = "0.6" }
+ethers-signers = { version = "0.6" }
